@@ -1,0 +1,120 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+body {
+  background: url(./images/image.png);
+  background-position: center;
+  background-attachment: fixed;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #f3f3f3;
+}
+.container {
+  width: 50%;
+  margin: auto;
+  border-radius: 10px;
+}
+.head {
+  text-align: center;
+  color: white;
+  margin: 50px;
+  line-height: 3em;
+}
+.head .p1 {
+  padding-bottom: 2px;
+  font-size: 35px;
+}
+.head .p2 {
+  font-size: 18px;
+}
+.form-control {
+  background-color: hsla(240, 32%, 11%, 0.829);
+}
+form {
+  padding: 40px 60px;
+  color: white;
+}
+form #input1,
+select {
+  display: block;
+  width: 100%;
+  height: 45px;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  border: none;
+}
+#input1::placeholder {
+  font-size: 20px;
+}
+#input1 {
+}
+select option {
+  font-size: 20px;
+}
+label {
+  font-size: 20px;
+}
+#label1 {
+  display: block;
+}
+#feature {
+  margin: 30px 0;
+  line-height: 2em;
+}
+#textarea {
+  display: block;
+  margin-top: 30px;
+  line-height: 3em;
+}
+#textare label {
+  margin-bottom: 100px;
+  line-height: 2em;
+}
+#feat {
+  margin-top: 20px;
+  line-height: 2em;
+}
+#recommend {
+  display: block;
+  margin-top: 30px;
+  line-height: 2em;
+}
+textarea {
+  width: 100%;
+  height: 120px;
+  font-size: larger;
+}
+.submit-button {
+  display: block;
+  width: 100%;
+  margin-top: 50px;
+  padding: 0.75rem;
+  background: hsl(143, 52%, 45%);
+  color: inherit;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.submit-button:hover {
+  border-radius: 4px;
+  transition: 0.8s;
+  background: hsl(143, 51%, 37%);
+}
+button {
+  border: none;
+}
+input,
+button,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
